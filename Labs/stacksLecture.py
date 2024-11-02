@@ -10,6 +10,7 @@
 """
 
 from stackA import *
+from card import *
 
 def palindrome_check(string):
     """ Determine whether string is a palindrome, using a stack.    """
@@ -60,7 +61,7 @@ def palindrome_check_list(inlist):
         pos = pos+1
     return True
 
-from cardgame import Card
+from card import Card
 
 def objlistcheck():
     """ Test the function which checks palindrome lists.
